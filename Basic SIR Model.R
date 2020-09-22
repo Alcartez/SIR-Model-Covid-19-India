@@ -34,8 +34,8 @@ y1 <- S
 y2 <- I
 y3 <- R
 fig <- plot_ly(x = ~x,y = ~y1, name = 'S',mode = 'lines', type = 'scatter')
-fig <- fig %>% add_trace(y = ~y2, name = 'I',mode = 'lines' ))
-fig <- fig %>% add_trace(y = ~y3, name = 'R',mode = 'lines'))
+fig <- fig %>% add_trace(y = ~y2, name = 'I',mode = 'lines' )
+fig <- fig %>% add_trace(y = ~y3, name = 'R',mode = 'lines')
 fig <- fig %>% layout(title = "R", xaxis = list(title = "Dates"), yaxis = list (title = "R"))
 fig
 
